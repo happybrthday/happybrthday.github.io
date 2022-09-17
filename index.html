@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Happy Birthday!</title>
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="card">
+		<div class="outside">
+			<div class="front">
+				<img src="src/cooltext419434290689366.png" width="260px">
+				<img src="src/Bolo de Aniversário 3.png" width="250px" height="250px">
+			</div>
+			<div class="back">
+				<img src="src/cooltext419434858221324.png" width="260px" id="txt">
+				<img src="src/57.png" height="150" width="150" id="m">
+			</div>
+		</div>
+		<div class="inside">
+			<p>Some text</p>
+			<p>Some text</p>
+			<p>Some text</p>
+			<p>Some text</p>
+			<p>Some text</p>
+			<p>Some text</p>
+			<h3>🎁</h3>
+		</div>
+	</div>
+	<canvas id="my-canvas"></canvas>
+	<script type="text/javascript" src="src/index.min.js"></script>
+	<script type="text/javascript">
+		var confettiSettings = { target: 'my-canvas' };
+		var confetti = new ConfettiGenerator(confettiSettings);
+		confetti.render();
+	</script>
+</body>
+</html>
