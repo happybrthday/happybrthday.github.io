@@ -41,7 +41,7 @@ body {
 
 .outside,
 .inside {
-	background-color: #1d062e;
+	background-color: #24734a;
 	height: 100%;
 	width: 50%;
 	position: absolute;
@@ -104,17 +104,12 @@ body {
 	transition: 2s;
 }
 
-.inside h1 {
-	font-size: 120px;
-	line-height: 120px;
-}
-
 .front {
 }
 
 #m {
 	border-radius: 150px;
-	border: solid pink 3px;
+	border: solid green 3px;
 	margin-top: 30px;
 	margin-left: 80px;
 }
@@ -127,12 +122,30 @@ body {
 	z-index: 100000;
 }
 
-.front img {
-	margin-left: 30px;
-	margin-top: 20px;
+#cake {
+	margin-top: 30px;
+	margin-left: 60px;
 }
 
 #txt {
 	margin-top: 20px;
 	margin-left: 30px;
+}
+
+#capybara {
+	position: absolute;
+	top: 700px;
+	left: 1200px;
+}
+
+#dancing_monkey {
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+}
+
+#dancing_croc {
+	position: absolute;
+	top: 700px;
+	left: 300px;
 }
